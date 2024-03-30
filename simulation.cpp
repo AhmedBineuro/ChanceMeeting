@@ -202,6 +202,7 @@ void initializeSimulation(int simSpaceWidth, int simSpaceHeight)
         CitiesVisited[i] = 0;
         GroupMet[i] = 0;
     }
+    view.zoom(20.0f);
 }
 void updateSimulation()
 {
